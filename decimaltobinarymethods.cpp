@@ -34,6 +34,6 @@ int main(){
     cin>>n;
     int binary=decimaltobinarymethod1(n);
     int binary1=decimaltobinarymethod2(n);
-    cout<<binary<<endl<<endl<<binary1<<endl;
+    cout<<binary<<endl<<binary1<<endl;
 
 }
