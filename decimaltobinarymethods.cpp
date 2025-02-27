@@ -27,13 +27,13 @@ int decimaltobinarymethod2(int n){
         binarynumber=bit*pow(10,i++)+binarynumber;
         n=n>>1;
     }
-    return binarynumber;
+    return binarynumber ;
 }
 int main(){
     int n;
     cin>>n;
     int binary=decimaltobinarymethod1(n);
     int binary1=decimaltobinarymethod2(n);
-    cout<<binary<<endl<<binary1<<endl;
+    cout<<binary<<endl<<endl<<binary1<<endl;
 
 }
